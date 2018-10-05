@@ -9,8 +9,7 @@ NMFileManager makes it easy for you to save file on disk (user's document direct
  2. Create and delete folder to disk
  
  ```swift
- class ViewController: UIViewController {
- 
+ class ViewController: UIViewController { 
     override func viewDidLoad() {
         super.viewDidLoad()
         NMFileManager.createFolder("/images/")

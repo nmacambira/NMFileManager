@@ -10,7 +10,6 @@ NMFileManager makes it easy for you to save file on disk (user's document direct
  
  ```swift
  class ViewController: UIViewController {
-    var cities: [City]!
  
     override func viewDidLoad() {
         super.viewDidLoad()
